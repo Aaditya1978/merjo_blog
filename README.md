@@ -83,7 +83,7 @@ Start the server
 
 ## backend
 
-you will need to add the following environment variables to your .env file
+you will need to create `.env` file in backend folder add the following environment variables
 
 `JWT_KEY=any_random_key`
 
@@ -95,7 +95,7 @@ you will need to add the following environment variables to your .env file
 
 ## frontend
 
-you will need to add the following environment variables to your .env file
+you will need to create `.env` file in frontend folder add the following environment variables
 
 `VITE_API_URL=http://127.0.0.1:8000`
 
