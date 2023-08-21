@@ -1,0 +1,121 @@
+@use "../../index.scss" as *;
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    h1{
+        font-size: 2.5rem;
+        color: $color-primary;
+        font-family: $font-family-roboto;
+    }
+}
+
+.blog-cont{
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    .blog{
+        width: 100%;
+        padding:30px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #ccc;
+
+        .card-title{
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-family: $font-family-roboto;
+            color: $color-primary;
+        }
+
+        .card-text{
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 20px;
+            font-family: $font-family-roboto;
+            text-align: justify;
+        }
+
+        .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: 40px;
+            gap: 20px;
+
+            div{
+                font-family: $font-family-roboto;
+                font-size: 1rem;
+                font-weight: 600;
+                color: $color-primary;
+
+                span{
+                    font-weight: 400;
+                    color: #343434;
+                }
+            }            
+        }
+
+        .actions{
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+    }
+
+    .comments{
+        margin-top: 40px;
+        padding-bottom: 50px;
+
+        .comment{
+            width: 100%;
+            padding: 20px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #ccc;
+            margin-bottom: 20px;
+
+            .card-text{
+                font-family: $font-family-roboto;
+                font-size: 1.2rem;
+                font-weight: 400;
+                color: #343434;
+            }
+
+            .footer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                margin-top: 20px;
+                gap: 20px;
+
+                div{
+                    font-family: $font-family-roboto;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    color: $color-primary;
+
+                    span{
+                        font-weight: 400;
+                        color: #343434;
+                    }
+                }
+            }
+        }
+    }
+}
