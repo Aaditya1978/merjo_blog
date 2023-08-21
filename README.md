@@ -2,23 +2,24 @@
 # Blog App
 
 A Django + React application for blog application. Users can. securely signup / login with jwt and create, update or read blogs. Also users can create comments on Blog
-## Tech Stack
 
-# Backend
+# Tech Stack
+
+## Backend
 Django
 
 Django RestFrameWork
 
 Sqlite
 
-# Frontend
+## Frontend
 React
 
 BootStrap
 
 
 
-## Run Locally
+# Run Locally
 
 Go to the project directory
 
@@ -26,7 +27,7 @@ Go to the project directory
   cd merjo_blog
 ```
 
-# Backend
+## Backend
 
 Go to backend directory
 
@@ -49,7 +50,7 @@ Start the server
 #### Server will be running on http://127.0.0.1:8000/
 
 
-# Frontend
+## Frontend
 
 Go to frontend directory
 
@@ -72,7 +73,7 @@ Start the server
 #### Server will be running on http://127.0.0.1:3000/
 
 
-## Environment Variables
+# Environment Variables
 
 ## backend
 
@@ -93,7 +94,7 @@ you will need to add the following environment variables to your .env file
 `VITE_API_URL=http://127.0.0.1:8000`
 
 
-## Features
+# Features
 
 - Seure API
 - clean Code
